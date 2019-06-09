@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "src/testignore"
+    ],
+    "collectCoverageFrom": [
+      "src/{!(config-ignore-me),}.js"
+    ]
+  },
+  "name": "jest-ignore-coverage",
+  "version": "1.0.0",
+  "description": "Examples of how to ignore files/functions/statements for coverage",
+  "main": "  ",
+  "devDependencies": {},
+  "scripts": {
+    "test": "yarn jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "examples",
+    "coverage"
+  ],
+  "author": "Hugo Di Francesco",
+  "license": "MIT"
+}
