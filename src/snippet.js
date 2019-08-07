@@ -5,6 +5,14 @@ function myFunc() {
 	);
 }
 
+// this function will appear as uncovered
+function ignoreLine() {
+  /* istanbul ignore next */
+  console.log(
+		'This line won\'t appear as uncovered'
+	);
+}
+
 function myOtherUncoveredFunc(something) {
 	/* istanbul ignore else */
 	if (something) {
