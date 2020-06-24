@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "jest": "^24.8.0",
-    "jest-cli": "^24.8.0"
+    "jest-cli": "^26.1.0"
   },
   "jest": {
     "testPathIgnorePatterns": [
