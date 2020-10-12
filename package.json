@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "jest": "^24.8.0",
+    "jest": "^26.5.3",
     "jest-cli": "^24.8.0"
   },
   "jest": {
